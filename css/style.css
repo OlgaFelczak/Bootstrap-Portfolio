@@ -1,0 +1,64 @@
+:root {
+  --primary-color: PowderBlue;
+  --secondary-color: #434c56;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Navigation bar */
+
+/* General */
+header {
+  height: 5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  background-color: var(--primary-color);
+  padding-left: 3rem;
+  padding-right: 1rem;
+  color: var(--secondary-color);
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: var(--secondary-color);
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-link {
+  color: var(--primary-color) !important;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  border-bottom: 0.2rem solid var(--primary-color);
+}
+
+/* hero section */
+.jumbotron {
+  background: url("../images/avatar.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.jumbotron > div.container {
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: flex-end !important;
+  min-height: 100vh;
+}
+
+.jumbotron > div.container > h1 {
+  width: 50%;
+}
