@@ -9,6 +9,11 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
 /* Navigation bar */
 
 /* General */
@@ -61,4 +66,43 @@ h1 {
 
 .jumbotron > div.container > h1 {
   width: 50%;
+}
+
+/* all sections */
+.container {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.section-header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  border-right: 0.3rem solid var(--secondary-color);
+  text-align: right;
+  line-height: 4rem;
+  padding-right: 1rem;
+  height: 100%;
+}
+
+/* card */
+.card {
+  object-fit: cover;
+  border: 0.5rem solid var(--primary-color);
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-body p {
+  padding: 1rem;
+}
+
+.card h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin: 0;
 }
