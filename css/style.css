@@ -9,11 +9,6 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-a {
-  text-decoration: none !important;
-  color: black !important;
-}
-
 /* Navigation bar */
 
 /* General */
@@ -93,6 +88,7 @@ h1 {
 
 .card-body {
   padding: 0;
+  height: 290px;
 }
 
 .card-body p {
@@ -105,4 +101,31 @@ h1 {
   background-color: var(--primary-color);
   padding: 1rem;
   margin: 0;
+}
+
+.card-img-top {
+  max-height: 100px;
+}
+/* skills section */
+
+.card h6 {
+  justify-content: center;
+}
+
+.card-link {
+  margin: 2rem;
+}
+
+.colored-text {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* contact section */
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
 }
